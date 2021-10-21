@@ -1,0 +1,284 @@
+@media screen and (max-width: 1300px){
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .page-header {
+    height: 900px;
+  }
+  .page-navigation {
+    display: block;
+    padding-bottom: 100px;
+  }
+
+  .site-logo {
+    margin: 0 auto;
+    font-size: 42px;
+  }
+
+  .site-navigation__link {
+    font-size: 16px;
+  }
+
+  .page-header__title-about {
+    font-size: 50px;
+  }
+
+  .page-header__title {
+    font-size: 100px; 
+  }
+
+  .page-header__slider-item {
+    width: 200px;
+  }
+
+  .about-us__list {
+    justify-content: space-around;
+  }
+
+  .about-us__item {
+    margin-bottom: 20px;
+  }
+
+  .facts {
+    padding: 50px 0;
+  }
+
+  .facts__count {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+
+  .facts__name {
+    padding: 0 10px;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .design__img-ipad {
+    transform: translate(25%);
+  }
+
+  .design__img-phone {
+      transform: translate(180%);
+  }
+
+  .service {
+    padding-bottom: 70px;
+  }
+
+  .service__wrapper {
+    display: block;
+  }
+
+  .service__img {
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .service__about {
+    margin: 0 auto;
+  }
+
+  .team__item:not(:last-child) {
+   margin-right: 10px;   
+  }
+
+  .page-footer__instagram {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .page-header {
+    height: 700px;
+  }
+
+  .page-navigation {
+    padding-bottom: 70px;
+  }
+  .page-header__title-about {
+    font-size: 32px;
+  }
+
+  .page-header__title {
+    font-size: 72px; 
+  }
+
+  .page-header__btn {
+    margin-bottom: 80px;
+  }
+
+  .page-header__slider-item {
+    width: 130px;
+  }
+
+  .services__list {
+    justify-content: center;
+}
+
+  .services__item {
+    width: auto;
+    margin-bottom: 20px;
+  }
+
+  .services__item:nth-last-child(-n+3) {
+    margin-bottom: 20px;
+  }
+
+  .design__img-ipad {
+    transform: translate(5%);
+  }
+
+  .design__img-phone {
+      transform: translate(140%);
+  }
+
+  .team__list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .team__item:not(:last-child) {
+    margin-right: 0; 
+    margin-bottom: 20px;  
+  }
+
+  .gallery {
+    grid-template-columns: repeat(2);
+    grid-template-rows: repeat(4);
+  }
+
+  .gallery__item--3 {
+    grid-column: 1 / span 1; 
+    grid-row: 3 / span 2;
+  }
+
+  .gallery__item--4 {
+    grid-column: 2 / span 1; 
+    grid-row: 3 / span 1;
+  }
+
+  .gallery__item--7 {
+    grid-column: 2 / span 1; 
+    grid-row: 4 / span 1;
+  }
+
+  .page-footer__logo {
+    margin-top: 20px;
+  }
+
+  .page-footer__wrapper {
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .design__img-ipad {
+    width: 470px;
+  }
+  .design__img-phone {
+      transform: translate(10%);
+      width: 224px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .container {
+    width: 340px;
+  }
+
+  .page-header {
+    height: 550px;
+  }
+
+  .site-navigation {
+    display: none;
+  }
+
+  .page-header__title {
+    font-size: 54px;
+  }
+  .page-header {
+    padding-bottom: 14px;
+  }
+
+  .page-header__slider-list {
+    display: none;
+  }
+
+  .facts__list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .design__img-ipad {
+    width: 320px;
+  }
+
+  .design__img-phone {
+    transform: translate(10%);
+    width: 180px;
+    bottom: -50px;
+  }
+
+  .design {
+    height: 650px;
+  }
+
+  .design__overlay {
+      height: 650px;
+      padding-top: 76px;
+  }
+
+  .service__about {
+    width: 320px;
+  }
+
+  .service__wrap {
+    width: 320px;
+    margin: 0 auto;
+  }
+
+  .service__wrap {
+    width: 320px;
+  }
+
+  .service__maybe {
+    width: 320px;
+    margin: 0 auto;
+  }
+
+  .service__maybe-be {
+    width: 300px;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+  }
+
+  .page-footer__blog--list {
+    width: 340px;
+    margin-right: 0;
+  }
+
+  .page-footer__information {
+    width: 340px;
+    margin-right: 0;
+  }
+
+  .page-footer__followers::after {
+    width: 340px;
+    margin: 14px 0;
+  }
+
+  .page-footer__form--btn {
+    margin-top: 10px;
+  }
+}
